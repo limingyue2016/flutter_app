@@ -30,11 +30,13 @@ dependencies:
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
-  integration_test:
-    sdk: flutter
+  # flutter 单元测试和Widgets测试
   flutter_test:
     sdk: flutter
+  # flutter 集成测试
   flutter_driver:
+    sdk: flutter
+  integration_test:
     sdk: flutter
 
 # For information on the generic Dart part of this file, see the
